@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #78c;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: #ffff;
+    width: 400px;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+}
+
+.form-group {
+    margin: 20px 0;
+    text-align: start;
+}
+
+.form-group input {
+    height: 50px;
+    width: 100%;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #a3a3a3;
+}
+
+button {
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+    font-size: 16px;
+    background: #0099;
+    border-radius: 30px;
+    border: none;
+    color: #ffff;
+    margin-bottom: 20px;
+}
+
+.otp-form {
+    display: block;
+    margin: 20px 0;
+}
+
+.otp-form p {
+    margin: 20px;
+    color: green;
+}
+
+.otp-group {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.otp-group input {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #a3a3a3;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+img {
+    height: 150px;
+    margin: 15px;
+}
+
+button.disable {
+    opacity: 0.6;
+    user-select: none;
+}
